@@ -1,27 +1,28 @@
-# Marlin 3D Printer Firmware
+# Marlin 3D 打印机硬件
 <img align="right" src="Documentation/Logo/Marlin%20Logo%20GitHub.png" />
 
-  * [Configuration & Compilation](/Documentation/Compilation.md)
-  * Supported
-    * [Features](/Documentation/Features.md)
-    * [Hardware](/Documentation/Hardware.md)
+  * [设置 & 编辑](/Documentation/Compilation.md)
+  * 支持
+    * [特性](/Documentation/Features.md)
+    * [硬件](/Documentation/Hardware.md)
     * [GCodes](/Documentation/GCodes.md)
-  * Notes
-    * [Auto Bed Leveling](/Documentation/BedLeveling.md)
+  * 注意
+    * [自动热床高度校正](/Documentation/BedLeveling.md)
     * [Filament Sensor](/Documentation/FilamentSensor.md)
-    * [Ramps Servo Power](/Documentation/RampsServoPower.md)
+    * [Ramps伺服马达电源](/Documentation/RampsServoPower.md)
 
-##### [RepRap.org Wiki Page](http://reprap.org/wiki/Marlin)
+##### [RepRap.org Wiki页面](http://reprap.org/wiki/Marlin)
 
-## Quick Information
-
-This is a firmware for reprap single-processor electronics setups.
-It also works on the Ultimaker PCB. It supports printing from SD card+Folders, and look-ahead trajectory planning.
-This firmware is a mashup between [Sprinter](https://github.com/kliment/Sprinter), [grbl](https://github.com/simen/grbl) and many original parts.
+## 快速简介
+这是一个适用于reprap单处理器硬件的固件
+同样也可以运行在Ultimaker的PCB板上。它支持从文件或是SD打印，and look-ahead trajectory planning.
+这个固件从[Sprinter](https://github.com/kliment/Sprinter), [grbl](https://github.com/simen/grbl)与其他固件整合而来
 
 ## Current Status: Bug Fixing
+## 现在的状态：修复bug
 
 The Marlin development is currently revived. There's a long list of reported issues and pull requests, which we are working on currently.
+Marlin development版本重新开始了。
 We are actively looking for testers. So please try the current development version and report new issues and feedback.
 
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224)
